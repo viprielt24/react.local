@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08ac34b4-d5a0-4324-8a96-5d8c7a5e73de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/rcc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mario-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/projectReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/rootReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/auth/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/SignIn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/auth/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/auth/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/ProjectDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/ProjectDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/SignedInLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/SignedInLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/SignedOutLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/SignedOutLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/CreateProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/CreateProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +88,7 @@
       <workItem from="1592558242159" duration="26000" />
       <workItem from="1592597261929" duration="778000" />
       <workItem from="1592727589525" duration="5957000" />
-      <workItem from="1592738408154" duration="3372000" />
+      <workItem from="1592738408154" duration="5732000" />
     </task>
     <task id="LOCAL-00001" summary="Setting Up">
       <created>1592509955050</created>
@@ -96,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592737534107</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SignIn and SignUp Components">
+      <created>1592742952557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592742952557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,13 +132,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting Up" />
     <MESSAGE value="Project Summary Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Summary Component" />
+    <MESSAGE value="SignIn and SignUp Components" />
+    <option name="LAST_COMMIT_MESSAGE" value="SignIn and SignUp Components" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2478" y="120" width="860" height="864" key="CommitChangelistDialog2" timestamp="1592737533816">
+    <state x="2478" y="120" width="860" height="864" key="CommitChangelistDialog2" timestamp="1592742952372">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2478" y="120" width="860" height="864" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1592737533816" />
+    <state x="2478" y="120" width="860" height="864" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1592742952372" />
     <state x="2696" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592558269184">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -136,10 +152,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2402" y="187" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1592738387511" />
-    <state x="2508" y="274" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1592737538444">
+    <state x="2508" y="274" width="800" height="556" key="Vcs.Push.Dialog.v2" timestamp="1592742954920">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2508" y="274" width="800" height="556" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1592737538444" />
+    <state x="2508" y="274" width="800" height="556" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1592742954920" />
     <state x="2604" y="291" width="618" height="522" key="find.popup" timestamp="1592728562808">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
